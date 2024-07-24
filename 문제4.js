@@ -15,7 +15,6 @@ function sum(firstnum, Operator, secondnumber) {
 
     
     // 코드를 작성해주세요.
-}
 
 console.log(sum(3, "+", 6)); // 결과값 9
 console.log(sum(11, "-", 6)); // 결과값 5
