@@ -2,7 +2,7 @@
 
 const jinwoo = {
     name: "진우!",
-    age: 18,
+    age: 20,
     mbti: "ISTP",
 };
 
