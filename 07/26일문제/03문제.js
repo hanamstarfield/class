@@ -36,45 +36,43 @@ const student = {
 
   
   
-  2.
+  //2.
   // 동일한 student로 진행합니다. 
   
   // 얕은 복사한 객체에 배열요소 변경 javascript -> js으로 변경해주세요 
-  shallowCopy.skill[0] = "js";
+  shallowCopy.skill = "js";
 
   // 깊은 복사 객체의 주소 속성을 변경하세요 (예: city를 "busan"으로 변경)
-  deepCopy1.address.city = "busan"
+  deepCopy1.address.city = "busan";
 
   // 결과 확인 
   console.log("5. 원본 객체(student):", student); 
   console.log("6. 얕은 복사된 객체(shallowCopy):",shallowCopy); 
   console.log("7. 깊은 복사된 객체(deepCopy):", deepCopy1);
   
-  /* 1~7번까지 출력값을 출력해보고 적어주세요
-  예 ) ```
-  1 ~ 4 번은 문제 옆에 작성했습니다!.
-  5.   
-{
-  name: 'yuno',
-  age: '30',
-  skill: [ 'js' ],
-  address: { city: 'seoul' }
-}
+// 1~7번까지 출력값을 출력해보고 적어주세요
+//  예 ) 
+//   1 ~ 4 번은 문제 옆에 작성했습니다!.
+//   5.   
+// {
+//   name: 'yuno',
+//   age: '30',
+//   skill: [ 'js' ],
+//   address: { city: 'seoul' }
+// }
 
-6.
-{
-  name: 'yuno',
-  age: '30',
-  skill: [ 'js' ],
-  address: { city: 'seoul' }
-}
+// 6.
+// {
+//   name: 'yuno',
+//   age: '30',
+//   skill: [ 'js' ],
+//   address: { city: 'seoul' }
+// }
 
-7.
-{
-  name: 'yuno',
-  age: '30',
-  skill: { '0': 'javascript' },
-  address: { city: 'busan' }
-}
-
-  ```
+// 7.
+// {
+//   name: 'yuno',
+//   age: '30',
+//   skill: { '0': 'javascript' },
+//   address: { city: 'busan' }
+// }
