@@ -7,7 +7,7 @@ let arr = [10, 20, 30]
 let result = [];
 // 해당 로직을 작성하세요 
 arr.forEach(function (item) {
-    result.push(item * 10);
+    return result.push(item * 10);
 });
 
 console.log(arr);
@@ -20,9 +20,10 @@ let arr2 = [10, 22, 33]
 let result1 = [];
 arr2.forEach(function (item) {
     if (item % 5 === 0) {
-        result1.push(item);
+       return  result1.push(item);
     }
 });
+
 console.log(result1);
 // 결과값 [10]
 

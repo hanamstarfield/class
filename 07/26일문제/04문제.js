@@ -6,6 +6,7 @@ var arr = [10, 20, 30]
 var newarr = arr.map(function(item){
     return item * 10 ;
 });
+
 console.log(newarr);
 
 2.
@@ -35,13 +36,12 @@ var newarr3 = arr.filter(function(item){
 });
 console.log(newarr3);
 
+
 5.
 var arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "cherry"];
 // 요소의 문자열 길이가 홀수인 요소만 반환하여 출력해주세요
-var newarr4 = arr.filter(function(item){
-    return item.length % 2 !== 0;
-});
-console.log(newarr4);
+arr.filter(item => item.length % 2 !== 0)
+console.log("답은!" + arr);
 
 6.
 var arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3];
