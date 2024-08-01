@@ -25,4 +25,4 @@ const obj2 ={
 
 obj2.method();
 // 첫 this = obj2 메서드에서 호출된 this라 obj2를 가리킨다.
-// 두번째 this = callback이라 전역을 가리킨다?
+// 두번째 this = setTimeout이 callback이라 전역을 가리킨다?
